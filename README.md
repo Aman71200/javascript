@@ -113,6 +113,24 @@ Inspired by the *"JavaScript Beginning to Mastery"* roadmap PDF.
 
 ---
 
+## ✅ Day 1 – Completed
+
+**Topics Covered:**
+- Arrow Functions
+- forEach Loop
+- Basic DOM Selection
+
+**Practice Files:**
+- `arrow-functions.js`
+- `forEach-practice.js`
+- `dom-selection.html`
+
+**Concepts Practiced:**
+- Converted traditional functions to arrow syntax
+- Looped through arrays with `forEach`
+- Accessed and modified DOM elements
+
+
 ## 📍 Let's connect
 
 If you're also on a similar journey, feel free to connect or fork this repo and start your own version of the challenge!
