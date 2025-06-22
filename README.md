@@ -120,16 +120,22 @@ Inspired by the *"JavaScript Beginning to Mastery"* roadmap PDF.
 - forEach Loop
 - Basic DOM Selection
 
-**Practice Files:**
-- `arrow-functions.js`
-- `forEach-practice.js`
-- `dom-selection.html`
-
 **Concepts Practiced:**
 - Converted traditional functions to arrow syntax
 - Looped through arrays with `forEach`
 - Accessed and modified DOM elements
 
+# JavaScript 30 Days Challenge
+
+## ✅ Day 2 – Array Methods (map, filter, reduce - Part 1)
+
+### Covered:
+- `map()` - 10 questions
+- `filter()` - 9 questions
+- `reduce()` - 1 question
+
+### Total Practice: 20 questions
+### Status: Work in progress (Remaining: filter Q10, reduce Q2–Q10)
 
 ## 📍 Let's connect
 
