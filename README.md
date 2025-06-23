@@ -137,6 +137,16 @@ Inspired by the *"JavaScript Beginning to Mastery"* roadmap PDF.
 ### Total Practice: 20 questions
 ### Status: Work in progress (Remaining: filter Q10, reduce Q2–Q10)
 
+## ✅ Day 2 – Array Methods Practice
+
+Covered:
+- map() – 10 Questions (transforming, extracting, modifying)
+- filter() – 10 Questions (conditions, includes, types)
+- reduce() – 7 Questions (sum, product, min/max, object logic)
+- forEach() – revision with object/array iterations
+
+Total Practice Time: ~1 hours (spread over 2 sessions)
+
 ## 📍 Let's connect
 
 If you're also on a similar journey, feel free to connect or fork this repo and start your own version of the challenge!

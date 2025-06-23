@@ -548,7 +548,13 @@ console.log(findAdmin);
 // Q10. Filter unique values (bonus logic)
 // (Use indexOf or Set, up to you)
 
-//  i dont know yet what i need to do to solve this Question that's why i skiped this
+// // Example input: [1, 2, 2, 3, 4, 1]
+// Output: [1, 2, 3, 4]
+
+let uniqueVal = [1,1,2,2,3,4,1];
+
+let getUnique = uniqueVal.filter((num, index) => uniqueVal.indexOf(num) === index);
+console.log(getUnique);
 
 // Step 3: reduce() – 10 Practice Questions
 
@@ -557,3 +563,77 @@ console.log(findAdmin);
 let findSum = [10,20,30,40];
 let getOfSum = findSum.reduce(sum => sum + sum);
 console.log(getOfSum);
+
+// Q2. Product of all numbers
+
+// [2, 3, 4] => 24
+
+let mixedProduct = [2,3,4];
+
+let getFinalProduct = mixedProduct.reduce(num => num + num, 3);
+console.log(getFinalProduct);
+
+// Q3. Find max number
+
+let mixedCounting = [1,20,60,1000];
+
+let findMax = mixedCounting.reduce((num, max) => Math.max(num, max));
+console.log(findMax);
+
+// Q4. Find min number
+
+let findMin = mixedCounting.reduce((num, min) => Math.min(num, min));
+console.log(findMin);
+
+// Q5. Count total characters in string array
+
+const countStr = ["Hi", "Buddy"];
+
+let getCount = countStr.reduce((val, countStr) => {
+    return val + countStr.length;
+}, 0);
+console.log(getCount);
+
+// Q7. Count frequency of elements
+
+// ["a", "b", "a"] => { a: 2, b: 1 }
+
+let flatArr = ["a", "b", "a"];
+
+let getFlatArr = flatArr.reduce((accumulator, currentValue) => {
+    if (accumulator[currentValue]){
+        accumulator[currentValue] ++;
+    } else {
+        accumulator[currentValue] = 1;
+    }
+    return accumulator;
+}, {});
+console.log(getFlatArr);
+
+// solved by Googling Q8 - Q10 is still not done yet
+
+// Day 3 – forEach() Practice Start
+
+// Syntax Reminder:
+
+// array.forEach((value, index, array) => {
+//   // logic here
+// });
+
+
+// Q1. Print all numbers with their index
+
+let  inputVal = [10, 20, 30];
+
+inputVal.forEach((val, index) => {
+    console.log("Index", index, val)
+})
+
+// Q2. Print all string values in array
+
+let mixedStr = ["Aman", "null", null, 1, "undefined", undefined];
+mixedStr.forEach(val => {
+    if(typeof val === String ){
+        console.log(val);
+    }
+})
